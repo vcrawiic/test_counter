@@ -1,0 +1,24 @@
+name: test_task
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  auto_route: ^11.1.0
+  flutter_svg: ^2.2.3
+  flutter_bloc: ^9.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.0
+  auto_route_generator: ^10.4.0
+
+flutter:
+  uses-material-design: true
